@@ -1,0 +1,12 @@
+[31m[1mCMake Error[0m at /home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/CMakeLists.txt:204 (add_dependencies):
+  The dependency target "trajectory_generators" of target
+  "trajectory_generator" does not exist.
+
+
+[31m[1mCMake Error[0m at /home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/CMakeLists.txt:208 (add_dependencies):
+  The dependency target "trajectory_generators" of target
+  "trajectory_receiver" does not exist.
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:698: cmake_check_build_system] Error 1

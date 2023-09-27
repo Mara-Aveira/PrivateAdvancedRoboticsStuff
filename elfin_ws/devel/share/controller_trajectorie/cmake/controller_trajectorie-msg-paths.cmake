@@ -1,0 +1,1 @@
+/home/marea/elfin_ws/devel/.private/controller_trajectorie/share/controller_trajectorie/cmake/controller_trajectorie-msg-paths.cmake

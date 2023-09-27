@@ -1,0 +1,67 @@
+In file included from [01m[K/usr/include/kdl/jntarray.hpp:26[m[K,
+                 from [01m[K/usr/include/kdl/chainidsolver.hpp:27[m[K,
+                 from [01m[K/usr/include/kdl/chainidsolver_recursive_newton_euler.hpp:25[m[K,
+                 from [01m[K/usr/include/kdl/chaindynparam.hpp:25[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:17[m[K:
+[01m[K/usr/include/kdl/jacobian.hpp:26:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No such file or directory
+   26 | #include [01;31m[K<Eigen/Core>[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/trajectory_generator.dir/build.make:63: CMakeFiles/trajectory_generator.dir/src/trajectory_generator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/trajectory_generator.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:10:32:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64MultiArrayConstPtr[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+   10 | void commandCB(const std_msgs::[01;31m[KFloat64MultiArrayConstPtr[m[K& msg)
+      |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:[m[K In function ‘[01m[Kvoid commandCB(const int&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:12:9:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   12 |   if(msg[01;31m[K->[m[Kdata.size()!=n_joints_)
+      |         [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:12:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kn_joints_[m[K’ was not declared in this scope
+   12 |   if(msg->data.size()!=[01;31m[Kn_joints_[m[K)
+      |                        [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:1[m[K:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:14:54:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   14 |      ROS_ERROR_STREAM("Dimension of command (" << msg[01;31m[K->[m[Kdata.size() << ") does not match number of joints (" << n_joints_ << ")! Not executing!");
+      |                                                      [01;31m[K^~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:361:64:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION_WITH_FILTER[m[K’
+  361 |     __rosconsole_print_stream_at_location_with_filter__ss__ << [01;36m[Kargs[m[K; \
+      |                                                                [01;36m[K^~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:409:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K’
+  409 |       [01;36m[KROSCONSOLE_PRINT_STREAM_AT_LOCATION[m[K(args); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:582:43:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM_COND[m[K’
+  582 | #define ROS_LOG_STREAM(level, name, args) [01;36m[KROS_LOG_STREAM_COND[m[K(true, level, name, args)
+      |                                           [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:215:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_STREAM[m[K’
+  215 | #define ROS_ERROR_STREAM(args) [01;36m[KROS_LOG_STREAM[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, args)
+      |                                [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:14:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR_STREAM[m[K’
+   14 |      [01;36m[KROS_ERROR_STREAM[m[K("Dimension of command (" << msg->data.size() << ") does not match number of joints (" << n_joints_ << ")! Not executing!");
+      |      [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:17:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands_buffer_[m[K’ was not declared in this scope
+   17 |   [01;31m[Kcommands_buffer_[m[K.writeFromNonRT(msg->data); // parses the msg
+      |   [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:17:38:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   17 |   commands_buffer_.writeFromNonRT(msg[01;31m[K->[m[Kdata); // parses the msg
+      |                                      [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:[m[K At global scope:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:21:1:[m[K [01;31m[Kerror: [m[K‘[01m[Krealtime_tools[m[K’ does not name a type
+   21 | [01;31m[Krealtime_tools[m[K::RealtimeBuffer<std::vector<double> > commands_buffer_;
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:37:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommands_buffer_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcommand_sub_[m[K’?
+   37 |  [01;31m[Kcommands_buffer_[m[K.writeFromNonRT(std::vector<double>(n_joints_, 0.0)); // prep for parsing the buffered message
+      |  [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |  [32m[Kcommand_sub_[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:38:39:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   38 |  command_sub_ = n.subscribe<std_msgs::[01;31m[KFloat64MultiArray[m[K>("trajectory_receiver", 1, commandCB, this); //subscribe to get my message
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:38:39:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64MultiArray[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:38:95:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   38 |  command_sub_ = n.subscribe<std_msgs::Float64MultiArray>("trajectory_receiver", 1, commandCB, [01;31m[Kthis[m[K); //subscribe to get my message
+      |                                                                                               [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/trajectory_receiver.dir/build.make:63: CMakeFiles/trajectory_receiver.dir/src/trajectory_receiver.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/trajectory_receiver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

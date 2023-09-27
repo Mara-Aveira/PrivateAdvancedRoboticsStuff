@@ -1,0 +1,95 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:338:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerJointState[m[K’ is not a member of ‘[01m[Karm_controllers[m[K’
+  338 |     arm_controllers::[01;31m[KControllerJointState[m[K> > controller_state_pub_;
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:338:22:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerJointState[m[K’ is not a member of ‘[01m[Karm_controllers[m[K’
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:338:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  338 |     arm_controllers::ControllerJointState[01;31m[K>[m[K > controller_state_pub_;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:338:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  338 |     arm_controllers::ControllerJointState> [01;31m[K>[m[K controller_state_pub_;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:[m[K In member function ‘[01m[Kvirtual bool arm_controllers::GravityCompController::init(hardware_interface::EffortJointInterface*, ros::NodeHandle&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:155:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kreset[m[K’ in ‘[01m[K((arm_controllers::GravityCompController*)this)->arm_controllers::GravityCompController::controller_state_pub_[m[K’, which is of non-class type ‘[01m[Kint[m[K’
+  155 |    controller_state_pub_.[01;31m[Kreset[m[K(
+      |                          [01;31m[K^~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:156:60:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerJointState[m[K’ is not a member of ‘[01m[Karm_controllers[m[K’
+  156 |     new realtime_tools::RealtimePublisher<arm_controllers::[01;31m[KControllerJointState[m[K>(n, "state", 1));
+      |                                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:156:60:[m[K [01;31m[Kerror: [m[K‘[01m[KControllerJointState[m[K’ is not a member of ‘[01m[Karm_controllers[m[K’
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:156:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  156 |     new realtime_tools::RealtimePublisher<arm_controllers::ControllerJointState[01;31m[K>[m[K(n, "state", 1));
+      |                                                                                [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:158:25:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  158 |    controller_state_pub_[01;31m[K->[m[Kmsg_.header.stamp = ros::Time::now();
+      |                         [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:161:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  161 |     controller_state_pub_[01;31m[K->[m[Kmsg_.name.push_back(joint_names_[i]);
+      |                          [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:162:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  162 |     controller_state_pub_[01;31m[K->[m[Kmsg_.command.push_back(0.0);
+      |                          [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:163:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  163 |     controller_state_pub_[01;31m[K->[m[Kmsg_.command_dot.push_back(0.0);
+      |                          [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:164:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  164 |     controller_state_pub_[01;31m[K->[m[Kmsg_.state.push_back(0.0);
+      |                          [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:165:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  165 |     controller_state_pub_[01;31m[K->[m[Kmsg_.state_dot.push_back(0.0);
+      |                          [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:166:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  166 |     controller_state_pub_[01;31m[K->[m[Kmsg_.error.push_back(0.0);
+      |                          [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:167:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  167 |     controller_state_pub_[01;31m[K->[m[Kmsg_.error_dot.push_back(0.0);
+      |                          [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:168:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  168 |     controller_state_pub_[01;31m[K->[m[Kmsg_.effort_command.push_back(0.0);
+      |                          [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:169:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  169 |     controller_state_pub_[01;31m[K->[m[Kmsg_.effort_feedforward.push_back(0.0);
+      |                          [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:170:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  170 |     controller_state_pub_[01;31m[K->[m[Kmsg_.effort_feedback.push_back(0.0);
+      |                          [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:[m[K In member function ‘[01m[Kvirtual void arm_controllers::GravityCompController::update(const ros::Time&, const ros::Duration&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:254:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  254 |     controller_state_pub_[01;31m[K->[m[Kmsg_.effort_feedforward[i] = tau_cmd_(i);
+      |                          [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:270:30:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  270 |     if (controller_state_pub_[01;31m[K->[m[Ktrylock())
+      |                              [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:272:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  272 |      controller_state_pub_[01;31m[K->[m[Kmsg_.header.stamp = time;
+      |                           [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:275:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  275 |       controller_state_pub_[01;31m[K->[m[Kmsg_.command[i] = R2D*q_cmd_(i);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:276:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  276 |       controller_state_pub_[01;31m[K->[m[Kmsg_.command_dot[i] = R2D*qdot_cmd_(i);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:277:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  277 |       controller_state_pub_[01;31m[K->[m[Kmsg_.state[i] = R2D*q_(i);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:278:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  278 |       controller_state_pub_[01;31m[K->[m[Kmsg_.state_dot[i] = R2D*qdot_(i);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:279:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  279 |       controller_state_pub_[01;31m[K->[m[Kmsg_.error[i] = R2D*q_error_(i);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:280:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  280 |       controller_state_pub_[01;31m[K->[m[Kmsg_.error_dot[i] = R2D*q_error_dot_(i);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:281:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  281 |       controller_state_pub_[01;31m[K->[m[Kmsg_.effort_command[i] = tau_cmd_(i);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:283:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  283 |       controller_state_pub_[01;31m[K->[m[Kmsg_.effort_feedback[i] = tau_cmd_(i) - G_(i);
+      |                            [01;31m[K^~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/gravity_comp_controller.cpp:285:27:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+  285 |      controller_state_pub_[01;31m[K->[m[KunlockAndPublish();
+      |                           [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:76: CMakeFiles/arm_controllers.dir/src/gravity_comp_controller.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/Makefile2:413: CMakeFiles/arm_controllers.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

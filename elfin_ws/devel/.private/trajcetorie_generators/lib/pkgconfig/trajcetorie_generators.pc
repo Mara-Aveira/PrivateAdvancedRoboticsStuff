@@ -1,0 +1,8 @@
+prefix=/home/marea/elfin_ws/devel/.private/trajcetorie_generators
+
+Name: trajcetorie_generators
+Description: Description of trajcetorie_generators
+Version: 0.0.0
+Cflags: -I/home/marea/elfin_ws/devel/.private/trajcetorie_generators/include -I/home/marea/elfin_ws/src/edu-elfin_simulation/trajcetorie_generators/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime arm_controllers eigen_kdl_examples elfin roscpp std_msg

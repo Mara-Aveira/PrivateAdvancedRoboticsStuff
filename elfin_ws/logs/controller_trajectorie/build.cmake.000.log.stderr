@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/marea/elfin_ws/src/edu-elfin_simulation/controller_trajectorie/CMakeLists.txt:218 (add_dependencies):
+  The dependency target "controller_trajectorie" of target
+  "trajectorie_receiver" does not exist.
+
+
+[31m[1mCMake Error[0m at /home/marea/elfin_ws/src/edu-elfin_simulation/controller_trajectorie/CMakeLists.txt:214 (add_dependencies):
+  The dependency target "controller_trajectorie" of target
+  "trajectorie_sender" does not exist.
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.

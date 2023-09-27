@@ -1,0 +1,7 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvirtual void arm_controllers::Marea_TrajectoryCommunication::update(const ros::Time&, const ros::Duration&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:241:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs::String[m[K’ {aka ‘[01m[Kstruct std_msgs::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kc_str[m[K’
+  241 |   printf("%s", msg.[01;31m[Kc_str[m[K());
+      |                    [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:154: CMakeFiles/arm_controllers.dir/src/Marea_TrajectoryCommunication.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/arm_controllers.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

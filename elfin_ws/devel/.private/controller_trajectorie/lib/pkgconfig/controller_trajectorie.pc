@@ -1,0 +1,8 @@
+prefix=/home/marea/elfin_ws/devel/.private/controller_trajectorie
+
+Name: controller_trajectorie
+Description: Description of controller_trajectorie
+Version: 0.0.0
+Cflags: -I/home/marea/elfin_ws/devel/.private/controller_trajectorie/include -I/home/marea/elfin_ws/src/edu-elfin_simulation/controller_trajectorie/include
+Libs: -L${prefix}/lib -lcontroller_trajectorie
+Requires: roscpp std_msgs

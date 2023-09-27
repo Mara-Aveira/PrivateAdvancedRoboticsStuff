@@ -1,0 +1,8 @@
+prefix=/home/marea/elfin_ws/devel/.private/elfin_gazebo
+
+Name: elfin_gazebo
+Description: Description of elfin_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

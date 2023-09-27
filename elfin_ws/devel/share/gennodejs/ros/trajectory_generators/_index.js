@@ -1,0 +1,1 @@
+/home/marea/elfin_ws/devel/.private/trajectory_generators/share/gennodejs/ros/trajectory_generators/_index.js

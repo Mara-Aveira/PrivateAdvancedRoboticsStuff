@@ -1,0 +1,28 @@
+[  5%] Built target arm_controllers_gencfg
+[  5%] Built target std_msgs_generate_messages_lisp
+[  5%] Built target _arm_controllers_generate_messages_check_deps_ControllerJointState
+[  5%] Built target std_msgs_generate_messages_py
+[  5%] Built target std_msgs_generate_messages_nodejs
+[  5%] Built target std_msgs_generate_messages_cpp
+[  5%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target arm_controllers[0m
+[ 10%] Built target arm_controllers_generate_messages_lisp
+[ 15%] [32mBuilding CXX object CMakeFiles/arm_controllers.dir/src/time_delay_controller.cpp.o[0m
+[ 26%] Built target arm_controllers_generate_messages_py
+[ 31%] [32mBuilding CXX object CMakeFiles/arm_controllers.dir/src/gravity_comp_controller.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/arm_controllers.dir/src/computed_torque_controller.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/arm_controllers.dir/src/computed_torque_clik_controller.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/arm_controllers.dir/src/adaptive_variable_impedance_controller.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/arm_controllers.dir/src/passivity_controller.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/arm_controllers.dir/src/Marea_GravityCompAndPDcontroller.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/arm_controllers.dir/src/Marea_TrajectoryCommunication.cpp.o[0m
+[ 68%] Built target arm_controllers_generate_messages_nodejs
+[ 73%] Built target arm_controllers_generate_messages_cpp
+[ 84%] Built target arm_controllers_generate_messages_eus
+[ 84%] Built target arm_controllers_generate_messages
+[ 89%] [32m[1mLinking CXX shared library /home/marea/elfin_ws/devel/.private/arm_controllers/lib/libarm_controllers.so[0m
+[ 89%] Built target arm_controllers
+[35m[1mScanning dependencies of target arm_trajectory_receiver[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/arm_trajectory_receiver.dir/src/ARM_trajectory_reciever.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/marea/elfin_ws/devel/.private/arm_controllers/lib/arm_controllers/arm_trajectory_receiver[0m
+[100%] Built target arm_trajectory_receiver

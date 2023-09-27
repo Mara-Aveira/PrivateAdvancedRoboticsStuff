@@ -1,0 +1,7 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:30:79:[m[K [01;31m[Kerror: [m[Kexpected identifier before string constant
+   30 |   bool init(hardware_interface::EffortJointInterface *hw, ros::NodeHandle &n, [01;31m[K"trajectory_receiver"[m[K)
+      |                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:30:79:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before string constant
+make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:154: CMakeFiles/arm_controllers.dir/src/Marea_TrajectoryCommunication.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/arm_controllers.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

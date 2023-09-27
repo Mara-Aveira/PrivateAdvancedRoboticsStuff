@@ -1,0 +1,47 @@
+[35m[1mScanning dependencies of target trajectorie_receiver[0m
+[  5%] [32mBuilding CXX object CMakeFiles/trajectorie_receiver.dir/src/trajectorie_receiver.cpp.o[0m
+[35m[1mScanning dependencies of target trajectorie_sender[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/trajectorie_sender.dir/src/trajectorie_sender.cpp.o[0m
+[ 17%] [32m[1mLinking CXX executable /home/marea/elfin_ws/devel/.private/trajcetorie_generators/lib/trajcetorie_generators/trajectorie_receiver[0m
+[ 17%] Built target trajectorie_receiver
+[35m[1mScanning dependencies of target _trajcetorie_generators_generate_messages_check_deps_AddTwoInts[0m
+[ 17%] Built target _trajcetorie_generators_generate_messages_check_deps_AddTwoInts
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[ 17%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target _trajcetorie_generators_generate_messages_check_deps_Num[0m
+[ 17%] Built target _trajcetorie_generators_generate_messages_check_deps_Num
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[ 17%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[ 17%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[ 17%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[ 17%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target trajcetorie_generators_generate_messages_eus[0m
+[ 23%] [34m[1mGenerating EusLisp code from trajcetorie_generators/Num.msg[0m
+[ 29%] [32m[1mLinking CXX executable /home/marea/elfin_ws/devel/.private/trajcetorie_generators/lib/trajcetorie_generators/trajectorie_sender[0m
+[ 35%] [34m[1mGenerating EusLisp code from trajcetorie_generators/AddTwoInts.srv[0m
+[ 41%] [34m[1mGenerating EusLisp manifest code for trajcetorie_generators[0m
+[ 41%] Built target trajectorie_sender
+[35m[1mScanning dependencies of target trajcetorie_generators_generate_messages_py[0m
+[ 47%] [34m[1mGenerating Python from MSG trajcetorie_generators/Num[0m
+[ 52%] [34m[1mGenerating Python code from SRV trajcetorie_generators/AddTwoInts[0m
+[ 58%] [34m[1mGenerating Python msg __init__.py for trajcetorie_generators[0m
+[ 58%] Built target trajcetorie_generators_generate_messages_eus
+[35m[1mScanning dependencies of target trajcetorie_generators_generate_messages_nodejs[0m
+[ 64%] [34m[1mGenerating Javascript code from trajcetorie_generators/Num.msg[0m
+[ 70%] [34m[1mGenerating Javascript code from trajcetorie_generators/AddTwoInts.srv[0m
+[ 70%] Built target trajcetorie_generators_generate_messages_nodejs
+[ 76%] [34m[1mGenerating Python srv __init__.py for trajcetorie_generators[0m
+[35m[1mScanning dependencies of target trajcetorie_generators_generate_messages_lisp[0m
+[ 82%] [34m[1mGenerating Lisp code from trajcetorie_generators/Num.msg[0m
+[ 88%] [34m[1mGenerating Lisp code from trajcetorie_generators/AddTwoInts.srv[0m
+[ 88%] Built target trajcetorie_generators_generate_messages_lisp
+[35m[1mScanning dependencies of target trajcetorie_generators_generate_messages_cpp[0m
+[ 94%] [34m[1mGenerating C++ code from trajcetorie_generators/Num.msg[0m
+[ 94%] Built target trajcetorie_generators_generate_messages_py
+[100%] [34m[1mGenerating C++ code from trajcetorie_generators/AddTwoInts.srv[0m
+[100%] Built target trajcetorie_generators_generate_messages_cpp
+[35m[1mScanning dependencies of target trajcetorie_generators_generate_messages[0m
+[100%] Built target trajcetorie_generators_generate_messages

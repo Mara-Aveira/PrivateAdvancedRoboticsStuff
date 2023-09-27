@@ -1,0 +1,1 @@
+/home/marea/elfin_ws/devel/.private/trajectory_generators/lib/python3/dist-packages/trajectory_generators/msg/__init__.py

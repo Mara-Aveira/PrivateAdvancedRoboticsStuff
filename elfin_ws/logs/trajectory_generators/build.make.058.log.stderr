@@ -1,0 +1,42 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:13:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_trajectory[m[K’ was not declared in this scope; did you mean ‘[01m[Ktrajectory_generators::joint_trajectory[m[K’?
+   13 |   ros::Publisher trajectory_pub = n.advertise<[01;31m[Kjoint_trajectory[m[K::num>("trajectory_generated", 1000);
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                               [32m[Ktrajectory_generators::joint_trajectory[m[K
+In file included from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:5[m[K:
+[01m[K/home/marea/elfin_ws/devel/.private/trajectory_generators/include/trajectory_generators/joint_trajectory.h:48:75:[m[K [01;36m[Knote: [m[K‘[01m[Ktrajectory_generators::joint_trajectory[m[K’ declared here
+   48 | typedef ::trajectory_generators::joint_trajectory_<std::allocator<void> > [01;36m[Kjoint_trajectory[m[K;
+      |                                                                           [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:13:37:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   13 |   ros::Publisher trajectory_pub = n.[01;31m[Kadvertise<joint_trajectory::num>[m[K("trajectory_generated", 1000);
+      |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:13:98:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<<expression error> >(const char [21], int)[m[K’
+   13 |   ros::Publisher trajectory_pub = n.advertise<joint_trajectory::num>("trajectory_generated", 1000[01;31m[K)[m[K;
+      |                                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)[m[K’
+  249 |     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+      |               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:13:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |   ros::Publisher trajectory_pub = n.advertise<joint_trajectory::num>("trajectory_generated", 1000[01;31m[K)[m[K;
+      |                                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:1[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)[m[K’
+  315 |   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+      |             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:13:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   13 |   ros::Publisher trajectory_pub = n.advertise<joint_trajectory::num>("trajectory_generated", 1000[01;31m[K)[m[K;
+      |                                                                                                  [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_trajectory[m[K’ is not a class, namespace, or enumeration
+   20 |     [01;31m[Kjoint_trajectory[m[K::num msg;
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:22:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   22 |     [01;31m[Kmsg[m[K.data = 10;
+      |     [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/trajectory_generator.dir/build.make:63: CMakeFiles/trajectory_generator.dir/src/trajectory_generator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/trajectory_generator.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

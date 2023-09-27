@@ -1,0 +1,8 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:[m[K In member function ‘[01m[Kvirtual void arm_controllers::Marea_GravityCompAndPDcontroller::update(const ros::Time&, const ros::Duration&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:253:11:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 2 has type ‘[01m[Kint[m[K’ [[01;35m[K-Wformat=[m[K]
+  253 |  printf("[01;35m[K%f[m[K", [32m[Ktest_messsage[m[K);
+      |          [01;35m[K~^[m[K   [32m[K~~~~~~~~~~~~~[m[K
+      |           [01;35m[K|[m[K   [32m[K|[m[K
+      |           [01;35m[K|[m[K   [32m[Kint[m[K
+      |           [01;35m[Kdouble[m[K
+      |          [32m[K%d[m[K

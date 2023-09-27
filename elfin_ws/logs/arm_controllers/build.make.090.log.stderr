@@ -1,0 +1,14 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvirtual bool arm_controllers::Marea_TrajectoryCommunication::init(hardware_interface::EffortJointInterface*, ros::NodeHandle&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:215:34:[m[K [01;31m[Kerror: [m[K‘[01m[KFalse[m[K’ was not declared in this scope
+  215 |         Subscriber_initialised = [01;31m[KFalse[m[K;
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kbool arm_controllers::Marea_TrajectoryCommunication::Init_Subscriber(bool)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:225:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTRUE[m[K’ was not declared in this scope
+  225 |      init = [01;31m[KTRUE[m[K;
+      |             [01;31m[K^~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:229:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  229 |     [01;35m[K}[m[K;
+      |     [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:154: CMakeFiles/arm_controllers.dir/src/Marea_TrajectoryCommunication.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/arm_controllers.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

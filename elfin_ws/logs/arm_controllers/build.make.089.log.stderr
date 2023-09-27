@@ -1,0 +1,18 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvirtual bool arm_controllers::Marea_TrajectoryCommunication::init(hardware_interface::EffortJointInterface*, ros::NodeHandle&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:215:34:[m[K [01;31m[Kerror: [m[K‘[01m[KFalse[m[K’ was not declared in this scope
+  215 |         Subscriber_initialised = [01;31m[KFalse[m[K;
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:219:18:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Karm_controllers::Marea_TrajectoryCommunication::Init_Subscriber()[m[K’
+  219 |  Init_Subscriber([01;31m[K)[m[K;
+      |                  [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:223:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid arm_controllers::Marea_TrajectoryCommunication::Init_Subscriber(bool&)[m[K’
+  223 |     void [01;36m[KInit_Subscriber[m[K(bool &initiation)
+      |          [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:223:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvoid arm_controllers::Marea_TrajectoryCommunication::Init_Subscriber(bool&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:225:31:[m[K [01;31m[Kerror: [m[K‘[01m[KTRUE[m[K’ was not declared in this scope
+  225 |      Subscriber_initialised = [01;31m[KTRUE[m[K;
+      |                               [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:154: CMakeFiles/arm_controllers.dir/src/Marea_TrajectoryCommunication.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/arm_controllers.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,54 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:44:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_generators::joint_trajectory[m[K’ {aka ‘[01m[Kstruct trajectory_generators::joint_trajectory_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kacceleration[m[K’
+   44 |     joint_positions.[01;31m[Kacceleration[m[K.resize(n_joints);
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:47:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_generators::joint_trajectory[m[K’ {aka ‘[01m[Kstruct trajectory_generators::joint_trajectory_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kacceleration[m[K’
+   47 |      joint_positions.[01;31m[Kacceleration[m[K[i] = PI * PI / 4 * 45 * D2R * sin(PI / 2 * t);
+      |                      [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:1[m[K:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:53:65:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_generators::joint_trajectory[m[K’ {aka ‘[01m[Kstruct trajectory_generators::joint_trajectory_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kacceleration[m[K’
+   53 |     ROS_INFO("This is acceleration joint 3 %f", joint_positions.[01;31m[Kacceleration[m[K[3]);
+      |                                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:53:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   53 |     [01;36m[KROS_INFO[m[K("This is acceleration joint 3 %f", joint_positions.acceleration[3]);
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:1[m[K:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:[m[K In function ‘[01m[Kvoid chatterCallback(const ConstPtr&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:10:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct trajectory_generators::joint_trajectory_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kacceleration[m[K’
+   10 |   ROS_INFO("I heard acceleration of joint 3 is: [%f]", msg->[01;31m[Kacceleration[m[K[3]);
+      |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_receiver.cpp:10:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   10 |   [01;36m[KROS_INFO[m[K("I heard acceleration of joint 3 is: [%f]", msg->acceleration[3]);
+      |   [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/trajectory_generator.dir/build.make:63: CMakeFiles/trajectory_generator.dir/src/trajectory_generator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/trajectory_generator.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/trajectory_receiver.dir/build.make:63: CMakeFiles/trajectory_receiver.dir/src/trajectory_receiver.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/trajectory_receiver.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

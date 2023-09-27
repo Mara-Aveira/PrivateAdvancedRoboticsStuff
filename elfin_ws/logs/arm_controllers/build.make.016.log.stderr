@@ -1,0 +1,11 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:533:5:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ does not name a type
+  533 |     [01;31m[KString[m[K test_messsage;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:[m[K In member function ‘[01m[Kvoid arm_controllers::Marea_GravityCompAndPDcontroller::chatterCallback(const ConstPtr&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:225:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ktest_messsage[m[K’ was not declared in this scope; did you mean ‘[01m[Ktest_msg[m[K’?
+  225 |          [01;31m[Ktest_messsage[m[K = test_msg->data.c_str();
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+      |          [32m[Ktest_msg[m[K
+make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:141: CMakeFiles/arm_controllers.dir/src/Marea_GravityCompAndPDcontroller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:385: CMakeFiles/arm_controllers.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

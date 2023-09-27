@@ -1,0 +1,13 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvirtual bool arm_controllers::Marea_TrajectoryCommunication::init(hardware_interface::EffortJointInterface*, ros::NodeHandle&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:215:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitinit[m[K’ is not a member of ‘[01m[Kros[m[K’
+  215 |         ros::[01;31m[Kinitinit[m[K(argc, argv, "Marea_TrajectoryCommunication_receiver"); // initialise a node that subscribes to /trajectory_generated
+      |              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:215:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+  215 |         ros::initinit([01;31m[Kargc[m[K, argv, "Marea_TrajectoryCommunication_receiver"); // initialise a node that subscribes to /trajectory_generated
+      |                       [01;31m[K^~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:215:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+  215 |         ros::initinit(argc, [01;31m[Kargv[m[K, "Marea_TrajectoryCommunication_receiver"); // initialise a node that subscribes to /trajectory_generated
+      |                             [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:154: CMakeFiles/arm_controllers.dir/src/Marea_TrajectoryCommunication.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/arm_controllers.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

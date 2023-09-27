@@ -1,0 +1,20 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:39:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "ROS_INFO"
+   39 | }
+      | 
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[KROS_INFO[m[K’ was not declared in this scope
+   29 |     [01;31m[KROS_INFO[m[K("This is what i am sending %f \n\n\n\n\n\n", positions.data[2];
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:29:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:16:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   16 |   [01;36m[K{[m[K
+      |   [01;36m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:29:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   29 |     [01;31m[KROS_INFO[m[K("This is what i am sending %f \n\n\n\n\n\n", positions.data[2];
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/trajectory_generators/src/trajectory_generator.cpp:6:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    6 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/trajectory_generator.dir/build.make:63: CMakeFiles/trajectory_generator.dir/src/trajectory_generator.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:170: CMakeFiles/trajectory_generator.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,8 @@
+prefix=/home/marea/elfin_ws/devel/.private/trajectory_generators
+
+Name: trajectory_generators
+Description: Description of trajectory_generators
+Version: 0.0.0
+Cflags: -I/home/marea/elfin_ws/devel/.private/trajectory_generators/include
+Libs: -L${prefix}/lib 
+Requires: 

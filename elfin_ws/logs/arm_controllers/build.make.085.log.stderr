@@ -1,0 +1,103 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:12:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print([01;31m[K\[m[Kn\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n\n);
+      |            [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:14:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n[01;31m[K\[m[Kn\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n\n);
+      |              [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:16:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n[01;31m[K\[m[Kn\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n\n);
+      |                [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:18:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n[01;31m[K\[m[Kn\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n\n);
+      |                  [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:20:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n[01;31m[K\[m[Kn\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n\n);
+      |                    [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:22:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n[01;31m[K\[m[Kn\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n\n);
+      |                      [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:24:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n[01;31m[K\[m[Kn\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n\n);
+      |                        [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:26:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n[01;31m[K\[m[Kn\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n\n);
+      |                          [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:28:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n[01;31m[K\[m[Kn"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n\n);
+      |                            [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:47:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"[01;31m[K\[m[Kn\n\n\n\n\n\n\n\n\n\n\n);
+      |                                               [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:49:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"\n[01;31m[K\[m[Kn\n\n\n\n\n\n\n\n\n\n);
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:51:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"\n\n[01;31m[K\[m[Kn\n\n\n\n\n\n\n\n\n);
+      |                                                   [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:53:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n[01;31m[K\[m[Kn\n\n\n\n\n\n\n\n);
+      |                                                     [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:55:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n[01;31m[K\[m[Kn\n\n\n\n\n\n\n);
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:57:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n[01;31m[K\[m[Kn\n\n\n\n\n\n);
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:59:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n[01;31m[K\[m[Kn\n\n\n\n\n);
+      |                                                           [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:61:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n[01;31m[K\[m[Kn\n\n\n\n);
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:63:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n[01;31m[K\[m[Kn\n\n\n);
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:65:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n[01;31m[K\[m[Kn\n\n);
+      |                                                                 [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:67:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n[01;31m[K\[m[Kn\n);
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:69:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  226 |      print(\n\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n[01;31m[K\[m[Kn);
+      |                                                                     [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvirtual bool arm_controllers::Marea_TrajectoryCommunication::init(hardware_interface::EffortJointInterface*, ros::NodeHandle&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:215:34:[m[K [01;31m[Kerror: [m[K‘[01m[KFalse[m[K’ was not declared in this scope
+  215 |         Subscriber_initialised = [01;31m[KFalse[m[K;
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvoid arm_controllers::Marea_TrajectoryCommunication::Init_Subscriber()[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:225:31:[m[K [01;31m[Kerror: [m[K‘[01m[KTRUE[m[K’ was not declared in this scope
+  225 |      Subscriber_initialised = [01;31m[KTRUE[m[K;
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+  226 |      print(\[01;31m[Kn[m[K\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n\n);
+      |             [01;31m[K^[m[K
+      |             [32m[Kyn[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kprint[m[K’ was not declared in this scope
+  226 |      [01;31m[Kprint[m[K(\n\n\n\n\n\n\n\n\n"Did I get here?"\n\n\n\n\n\n\n\n\n\n\n\n);
+      |      [01;31m[K^~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:226:6:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/noetic/include/ros/assert.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/console.h:165:22:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::console::print[m[K’
+  165 | ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+      |                      [01;36m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/console.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/assert.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/console_backend.h:73:30:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::console::backend::print[m[K’
+   73 | ROSCONSOLE_BACKEND_DECL void [01;36m[Kprint[m[K(void* logger_handle, ::ros::console::Level level, const char* str, const char* file, const char* function, int line);
+      |                              [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:154: CMakeFiles/arm_controllers.dir/src/Marea_TrajectoryCommunication.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/arm_controllers.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

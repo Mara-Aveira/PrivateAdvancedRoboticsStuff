@@ -1,0 +1,8 @@
+prefix=/home/marea/elfin_ws/install
+
+Name: eigen_kdl_examples
+Description: Description of eigen_kdl_examples
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

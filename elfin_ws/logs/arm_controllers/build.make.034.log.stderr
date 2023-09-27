@@ -1,0 +1,152 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:221:42:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[Kstd_msgs[m[K’ does not name a type
+  221 |     void chatterCallback(const std_msgs::[01;31m[KString[m[K::ConstPtr& test_msg)
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:221:58:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+  221 |     void chatterCallback(const std_msgs::String::ConstPtr[01;31m[K&[m[K test_msg)
+      |                                                          [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:221:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+  221 |     void chatterCallback[34m[K([m[Kconst std_msgs::String::ConstPtr[01;31m[K&[m[K test_msg)
+      |                         [34m[K~[m[K                                [01;31m[K^[m[K
+      |                                                          [32m[K)[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:221:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  221 |     void chatterCallback(const std_msgs::String::ConstPtr[01;31m[K&[m[K test_msg)
+      |                                                          [01;31m[K^[m[K
+      |                                                           [32m[K;[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:221:60:[m[K [01;31m[Kerror: [m[K‘[01m[Ktest_msg[m[K’ does not name a type
+  221 |     void chatterCallback(const std_msgs::String::ConstPtr& [01;31m[Ktest_msg[m[K)
+      |                                                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:[m[K In member function ‘[01m[Kvirtual bool arm_controllers::Marea_GravityCompAndPDcontroller::init(hardware_interface::EffortJointInterface*, ros::NodeHandle&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:35:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+  215 |  test_sub = n.subscribe<std_msgs::[01;31m[KString[m[K>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this);
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:35:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::subscribe<<expression error> >(const char [8], int, void (arm_controllers::Marea_GravityCompAndPDcontroller::*)(...) &, arm_controllers::Marea_GravityCompAndPDcontroller*)[m[K’
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&)[m[K’
+  402 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, T*, const ros::TransportHints&)[m[K’
+  413 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), T*, const ros::TransportHints&)[m[K’
+  465 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, T*, const ros::TransportHints&)[m[K’
+  475 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  529 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M),
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  540 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  594 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  605 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&)[m[K’
+  656 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(M), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(const boost::shared_ptr<const M>&), const ros::TransportHints&)[m[K’
+  704 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(const boost::shared_ptr<M const>&), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(const boost::shared_ptr<const M>&)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  750 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (const boost::shared_ptr<M const>&)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/controller_interface/controller_base.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:2[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class C> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(C)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  799 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (C)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:215:116:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  215 |  test_sub = n.subscribe<std_msgs::String>("chatter", 1000, &Marea_GravityCompAndPDcontroller::chatterCallback, this[01;31m[K)[m[K;
+      |                                                                                                                    [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:[m[K In member function ‘[01m[Kvirtual void arm_controllers::Marea_GravityCompAndPDcontroller::update(const ros::Time&, const ros::Duration&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_GravityCompAndPDcontroller.cpp:250:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ktest_messsage[m[K’ was not declared in this scope
+  250 |  printf("%s", [01;31m[Ktest_messsage[m[K.c_str());
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:141: CMakeFiles/arm_controllers.dir/src/Marea_GravityCompAndPDcontroller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:385: CMakeFiles/arm_controllers.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

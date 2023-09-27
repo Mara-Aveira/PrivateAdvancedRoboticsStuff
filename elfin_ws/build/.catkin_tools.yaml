@@ -1,0 +1,6 @@
+devel_space: /home/marea/elfin_ws/devel
+install: false
+install_space: /home/marea/elfin_ws/install
+profile: default
+source_space: /home/marea/elfin_ws/src
+workspace: /home/marea/elfin_ws

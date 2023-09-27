@@ -1,0 +1,1 @@
+/home/marea/elfin_ws/devel/.private/controller_trajectorie/lib/python3/dist-packages/controller_trajectorie/msg/__init__.py

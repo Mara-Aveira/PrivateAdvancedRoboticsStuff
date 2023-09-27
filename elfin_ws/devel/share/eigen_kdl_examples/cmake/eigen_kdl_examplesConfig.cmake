@@ -1,0 +1,1 @@
+/home/marea/elfin_ws/devel/.private/eigen_kdl_examples/share/eigen_kdl_examples/cmake/eigen_kdl_examplesConfig.cmake

@@ -1,0 +1,26 @@
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:306:15:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kchar[m[K’
+  306 |     int argc, [01;31m[Kchar[m[K **argv
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvoid arm_controllers::Marea_TrajectoryCommunication::Init_Subscriber()[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:228:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope; did you mean ‘[01m[Kargc[m[K’?
+  228 |      ros::init(argc, [01;31m[Kargv[m[K, "trajectory_receiver");
+      |                      [01;31m[K^~~~[m[K
+      |                      [32m[Kargc[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:229:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+  229 |  sub = [01;31m[Kn[m[K.subscribe<std_msgs::String>("trajectory_generated", 1000, &Marea_TrajectoryCommunication::callback, this);
+      |        [01;31m[K^[m[K
+      |        [32m[Kyn[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:229:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  229 |  sub = n.subscribe<std_msgs::String[01;31m[K>[m[K("trajectory_generated", 1000, &Marea_TrajectoryCommunication::callback, this);
+      |                                    [01;31m[K^[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvoid arm_controllers::Marea_TrajectoryCommunication::callback(const StringConstPtr&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:236:2:[m[K [01;31m[Kerror: [m[K‘[01m[Ktest_msg[m[K’ was not declared in this scope
+  236 |  [01;31m[Ktest_msg[m[K = msg->data.c_str();
+      |  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvirtual void arm_controllers::Marea_TrajectoryCommunication::update(const ros::Time&, const ros::Duration&)[m[K’:
+[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:267:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ktest_msg[m[K’ was not declared in this scope
+  267 |         printf("%s", [01;31m[Ktest_msg[m[K.c_str()); // considering the chattercallback function should fil this
+      |                      [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:154: CMakeFiles/arm_controllers.dir/src/Marea_TrajectoryCommunication.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/arm_controllers.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
