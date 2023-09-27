@@ -1,7 +1,0 @@
-[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvirtual void arm_controllers::Marea_TrajectoryCommunication::update(const ros::Time&, const ros::Duration&)[m[K’:
-[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:241:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
-  241 |   printf("%s", [01;31m[Kmsg[m[K.c_str());
-      |                [01;31m[K^~~[m[K
-make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:154: CMakeFiles/arm_controllers.dir/src/Marea_TrajectoryCommunication.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/arm_controllers.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

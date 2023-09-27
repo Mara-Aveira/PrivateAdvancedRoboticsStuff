@@ -1,8 +1,0 @@
-prefix=/home/marea/elfin_ws/install
-
-Name: controller_trajectorie
-Description: Description of controller_trajectorie
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lcontroller_trajectorie
-Requires: roscpp std_msgs

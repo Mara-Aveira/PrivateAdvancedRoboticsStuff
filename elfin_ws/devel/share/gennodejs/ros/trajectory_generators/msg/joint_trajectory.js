@@ -1,1 +1,0 @@
-/home/marea/elfin_ws/devel/.private/trajectory_generators/share/gennodejs/ros/trajectory_generators/msg/joint_trajectory.js

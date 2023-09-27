@@ -1,1 +1,0 @@
-/home/marea/elfin_ws/devel/.private/arm_controllers/share/gennodejs/ros/arm_controllers/_index.js

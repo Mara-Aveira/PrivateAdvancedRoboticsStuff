@@ -1,8 +1,0 @@
-prefix=/home/marea/elfin_ws/install
-
-Name: trajcetorie_generators
-Description: Description of trajcetorie_generators
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime arm_controllers eigen_kdl_examples elfin roscpp std_msg

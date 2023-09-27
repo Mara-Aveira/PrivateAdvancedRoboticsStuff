@@ -1,1 +1,0 @@
-/home/marea/elfin_ws/devel/.private/trajcetorie_generators/share/gennodejs/ros/trajcetorie_generators/srv/AddTwoInts.js

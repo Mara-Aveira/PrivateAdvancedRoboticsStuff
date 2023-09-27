@@ -1,1 +1,0 @@
-/home/marea/elfin_ws/devel/.private/trajectory_generators/lib/pkgconfig/trajectory_generators.pc

@@ -1,1 +1,0 @@
-/home/marea/elfin_ws/devel/.private/trajectory_generators/share/roseus/ros/trajectory_generators/manifest.l

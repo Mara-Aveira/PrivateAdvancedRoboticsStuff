@@ -1,7 +1,0 @@
-[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:[m[K In member function ‘[01m[Kvoid arm_controllers::Marea_TrajectoryCommunication::Init_Subscriber()[m[K’:
-[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:229:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kn[m[K’ declared as reference but not initialized
-  229 |      ros::NodeHandle &[01;31m[Kn[m[K;
-      |                       [01;31m[K^[m[K
-make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:154: CMakeFiles/arm_controllers.dir/src/Marea_TrajectoryCommunication.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/arm_controllers.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

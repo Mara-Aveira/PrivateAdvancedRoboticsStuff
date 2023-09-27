@@ -1,7 +1,0 @@
-[01m[K/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/src/Marea_TrajectoryCommunication.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Krealtime_buffer.h: No such file or directory
-    9 | #include [01;31m[K<realtime_buffer.h>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/arm_controllers.dir/build.make:154: CMakeFiles/arm_controllers.dir/src/Marea_TrajectoryCommunication.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:414: CMakeFiles/arm_controllers.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

@@ -1,1 +1,0 @@
-/home/marea/elfin_ws/devel/.private/controller_trajectorie/share/gennodejs/ros/controller_trajectorie/msg/_index.js

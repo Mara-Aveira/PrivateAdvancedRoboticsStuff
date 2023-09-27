@@ -1,1 +1,0 @@
-/home/marea/elfin_ws/devel/.private/trajectory_generators/include/trajectory_generators/joint_trajectory.h

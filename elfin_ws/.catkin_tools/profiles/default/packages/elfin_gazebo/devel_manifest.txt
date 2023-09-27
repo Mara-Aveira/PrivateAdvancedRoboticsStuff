@@ -1,5 +1,0 @@
-edu-elfin_simulation/elfin/elfin_gazebo
-/home/marea/elfin_ws/devel/.private/elfin_gazebo/cmake.lock /home/marea/elfin_ws/devel/./cmake.lock
-/home/marea/elfin_ws/devel/.private/elfin_gazebo/share/elfin_gazebo/cmake/elfin_gazeboConfig.cmake /home/marea/elfin_ws/devel/share/elfin_gazebo/cmake/elfin_gazeboConfig.cmake
-/home/marea/elfin_ws/devel/.private/elfin_gazebo/share/elfin_gazebo/cmake/elfin_gazeboConfig-version.cmake /home/marea/elfin_ws/devel/share/elfin_gazebo/cmake/elfin_gazeboConfig-version.cmake
-/home/marea/elfin_ws/devel/.private/elfin_gazebo/lib/pkgconfig/elfin_gazebo.pc /home/marea/elfin_ws/devel/lib/pkgconfig/elfin_gazebo.pc

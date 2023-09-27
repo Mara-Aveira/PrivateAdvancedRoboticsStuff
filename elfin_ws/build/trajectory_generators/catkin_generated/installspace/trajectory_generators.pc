@@ -1,8 +1,0 @@
-prefix=/home/marea/elfin_ws/install
-
-Name: trajectory_generators
-Description: Description of trajectory_generators
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,2 +1,0 @@
-set(arm_controllers_MESSAGE_FILES "/home/marea/elfin_ws/src/edu-elfin_simulation/arm_controllers/msg/ControllerJointState.msg")
-set(arm_controllers_SERVICE_FILES "")
