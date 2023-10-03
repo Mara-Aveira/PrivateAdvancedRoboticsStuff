@@ -50,8 +50,22 @@
 	    Marea establishing communication between different ROS packages
     </description>
   </class>
+  
+      <class name="arm_controllers/Marea_VelocityController_JointSpace" type="arm_controllers::Marea_VelocityController_JointSpace" base_class_type="controller_interface::ControllerBase">
+    <description>
+	    Marea establishing Velocity controller in jointspace
+    </description>
+  </class>
+  
+        <class name="arm_controllers/Marea_TaskSpace_KinematicController" type="arm_controllers::Marea_TaskSpace_KinematicController" base_class_type="controller_interface::ControllerBase">
+    <description>
+	    Marea establishing Velocity controller in taskspace
+    </description>
+  </class>
 
 </library>
+
+
 
 
 

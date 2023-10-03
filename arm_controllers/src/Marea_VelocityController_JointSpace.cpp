@@ -24,7 +24,7 @@
 
 namespace arm_controllers
 {
-class Marea_GravityCompAndPDcontroller : public controller_interface::Controller<hardware_interface::EffortJointInterface>
+class Marea_VelocityController_JointSpace : public controller_interface::Controller<hardware_interface::EffortJointInterface>
 {
   public:
   bool init(hardware_interface::EffortJointInterface *hw, ros::NodeHandle &n)
@@ -63,18 +63,18 @@ class Marea_GravityCompAndPDcontroller : public controller_interface::Controller
         for (size_t i = 0; i < n_joints_; i++)
         {
             std::string si = boost::lexical_cast<std::string>(i + 1);
-            if (n.getParam("/elfin/Marea_GravityCompAndPDcontroller/gains/elfin_joint" + si + "/pid/p", Kp[i]))
+            if (n.getParam("/elfin/Marea_VelocityController_JointSpace/gains/elfin_joint" + si + "/pid/p", Kp[i]))
             {
                 Kp_(i) = Kp[i];
             }
             else
             {
-                std::cout << "/elfin/Marea_GravityCompAndPDcontroller/gains/elfin_joint" + si + "/pid/p" << std::endl;
+                std::cout << "/elfin/Marea_VelocityController_JointSpace/gains/elfin_joint" + si + "/pid/p" << std::endl;
                 ROS_ERROR("Cannot find pid/p gain");
                 return false;
             }
 
-            if (n.getParam("/elfin/Marea_GravityCompAndPDcontroller/gains/elfin_joint" + si + "/pid/i", Ki[i]))
+            if (n.getParam("/elfin/Marea_VelocityController_JointSpace/gains/elfin_joint" + si + "/pid/i", Ki[i]))
             {
                 Ki_(i) = Ki[i];
             }
@@ -84,7 +84,7 @@ class Marea_GravityCompAndPDcontroller : public controller_interface::Controller
                 return false;
             }
 
-            if (n.getParam("/elfin/Marea_GravityCompAndPDcontroller/gains/elfin_joint" + si + "/pid/d", Kd[i]))
+            if (n.getParam("/elfin/Marea_VelocityController_JointSpace/gains/elfin_joint" + si + "/pid/d", Kd[i]))
             {
                 Kd_(i) = Kd[i];
             }
@@ -226,11 +226,12 @@ class Marea_GravityCompAndPDcontroller : public controller_interface::Controller
 
     void update(const ros::Time &time, const ros::Duration &period)
     {	   	   
-        // Goal :: Implementation of gravity compensation and PD in joint space
-         // P-> proportional control, is that the response is proportional to the difference between the desired value and real value
-	 // D-> derivative control, is by determining the slope of the error over time and multiplying this rate of change with the derivative gain, 
-	 //	it minimises the overshoot and oascilliations in the output system. However, a large derivative gain destabalizes the loop as it blocks changes
+ 	// Goal :: Implementation of velocity controller in joint space
+ 	// D-> derivative control, is by determining the slope of the error over time and multiplying this rate of change with the derivative gain, 
+ 	//	it minimises the overshoot and oascilliations in the output system. However, a large derivative gain destabalizes the loop as it blocks changes
         
+
+
         // ********* 0. Get states from gazebo *********
         // 0.1 sampling time
         double dt = period.toSec();
@@ -252,23 +253,26 @@ class Marea_GravityCompAndPDcontroller : public controller_interface::Controller
             qd_(i) = 45 * KDL::deg2rad * sin(M_PI / 2* t);
         }
 	
-	 // ********* 2. Gravity compensation and PD controller (slide 27) *********
-	
-         // *** 2.2 Compute model(M,C,G) ***
-         id_solver_->JntToGravity(q_, G_);  //calculates gravitational torques on each joint
-         id_solver_->JntToMass(q_, M_); // Calculates inertia matrixs
-         id_solver_->JntToCoriolis(q_, qdot_, C_);// Does coriolis stuff Coriolis is the intertial force that acts on objects in motion      
-      	
+	 
+	 // ********* 2. Velocity controller in joint space *********
+	 
+	 // *** 2.2 Compute model(M,C,G) ***
+	 id_solver_->JntToGravity(q_, G_);  //calculates gravitational torques on each joint
+	 id_solver_->JntToMass(q_, M_); // Calculates inertia matrixs
+	 id_solver_->JntToCoriolis(q_, qdot_, C_);// Does coriolis stuff Coriolis is the intertial force that acts on objects in motion
+      
          // *** 2.3 error calculations ***
          e_.data = qd_.data - q_.data;
          e_dot_.data = qd_dot_.data - qdot_.data;
          e_int_.data = qd_.data - q_.data;
-        
+         
          // *** 2.4 Apply Torque Command to Actuator ***
-         aux_d_.data = M_.data * (qd_ddot_.data + Kp_.data.cwiseProduct(e_.data) + Kd_.data.cwiseProduct(e_dot_.data));
+         aux_d_.data = M_.data * (qd_ddot_.data + Kd_.data.cwiseProduct(e_dot_.data));
          comp_d_.data = C_.data + G_.data;
          tau_d_.data = aux_d_.data + comp_d_.data;
-
+		
+	// ---> Why? does it appear that only the lowest joint is affected by changes? and the other joints appear fixed?
+   
 	 // ********* 3. Sends commands to robot *********
       	for (int i = 0; i < n_joints_; i++){
            joints_[i].setCommand(tau_d_(i)); 
@@ -304,7 +308,7 @@ class Marea_GravityCompAndPDcontroller : public controller_interface::Controller
 
     // kdl solver
     boost::scoped_ptr<KDL::ChainDynParam> id_solver_;                  // Solver To compute the inverse dynamics
-
+    
     // Joint Space State
     KDL::JntArray qd_, qd_dot_, qd_ddot_;
     KDL::JntArray qd_old_;
@@ -335,4 +339,4 @@ class Marea_GravityCompAndPDcontroller : public controller_interface::Controller
     
 };
 }; // namespace arm_controllers
-PLUGINLIB_EXPORT_CLASS(arm_controllers::Marea_GravityCompAndPDcontroller, controller_interface::ControllerBase)
+PLUGINLIB_EXPORT_CLASS(arm_controllers::Marea_VelocityController_JointSpace, controller_interface::ControllerBase)

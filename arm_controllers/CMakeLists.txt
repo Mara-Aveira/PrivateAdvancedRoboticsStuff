@@ -60,6 +60,8 @@ add_library(${PROJECT_NAME}
   src/passivity_controller.cpp
   src/Marea_GravityCompAndPDcontroller.cpp
   src/Marea_TrajectoryCommunication.cpp
+  src/Marea_VelocityController_JointSpace.cpp
+  src/Marea_TaskSpace_KinematicController.cpp
 )
 
 target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES})
