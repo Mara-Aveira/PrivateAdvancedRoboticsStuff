@@ -1,0 +1,2 @@
+set(reactive_components_MESSAGE_FILES "msg/basic_first_interruptAction.msg;msg/basic_first_interruptActionGoal.msg;msg/basic_first_interruptActionResult.msg;msg/basic_first_interruptActionFeedback.msg;msg/basic_first_interruptGoal.msg;msg/basic_first_interruptResult.msg;msg/basic_first_interruptFeedback.msg")
+set(reactive_components_SERVICE_FILES "")

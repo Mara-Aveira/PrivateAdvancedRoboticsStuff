@@ -1,0 +1,14 @@
+# Define the goal
+int32 some_goal_data
+float64[] joint_positions
+float64[] joint_velocities
+float64[] joint_accelerations
+time timestamp
+---
+# Define the result
+string result_message
+---
+# Define the feedback
+int32 feedback_data
+
+

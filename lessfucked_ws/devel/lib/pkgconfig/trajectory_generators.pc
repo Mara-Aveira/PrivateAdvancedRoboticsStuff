@@ -1,0 +1,8 @@
+prefix=/home/marea/lessfucked_ws/devel
+
+Name: trajectory_generators
+Description: Description of trajectory_generators
+Version: 0.0.0
+Cflags: -I/home/marea/lessfucked_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs message_runtime roscpp std_msgs

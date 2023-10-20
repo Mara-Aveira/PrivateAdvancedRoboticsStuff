@@ -1,0 +1,10 @@
+#Robot trajectory action file
+
+# Define the goal
+int32 some_goal_data
+---
+# Define the result
+string result_message
+---
+# Define the feedback
+int32 feedback_data

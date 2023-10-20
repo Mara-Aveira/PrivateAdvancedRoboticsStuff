@@ -1,0 +1,2 @@
+set(trajectory_generators_MESSAGE_FILES "/home/marea/lessfucked_ws/src/trajectory_generators/msg/Num.msg;/home/marea/lessfucked_ws/src/trajectory_generators/msg/taskspace_trajectory.msg")
+set(trajectory_generators_SERVICE_FILES "")
