@@ -1,0 +1,8 @@
+prefix=/home/marea/lessfucked_ws/devel
+
+Name: ar_tag_control
+Description: Description of ar_tag_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

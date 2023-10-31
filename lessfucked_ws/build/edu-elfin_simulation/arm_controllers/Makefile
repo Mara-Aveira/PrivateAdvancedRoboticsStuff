@@ -800,6 +800,33 @@ src/TrajectoryCommunication.cpp.s:
 	cd /home/marea/lessfucked_ws/build && $(MAKE) -f edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/build.make edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/TrajectoryCommunication.cpp.s
 .PHONY : src/TrajectoryCommunication.cpp.s
 
+src/VisualInputListener.o: src/VisualInputListener.cpp.o
+
+.PHONY : src/VisualInputListener.o
+
+# target to build an object file
+src/VisualInputListener.cpp.o:
+	cd /home/marea/lessfucked_ws/build && $(MAKE) -f edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/build.make edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.o
+.PHONY : src/VisualInputListener.cpp.o
+
+src/VisualInputListener.i: src/VisualInputListener.cpp.i
+
+.PHONY : src/VisualInputListener.i
+
+# target to preprocess a source file
+src/VisualInputListener.cpp.i:
+	cd /home/marea/lessfucked_ws/build && $(MAKE) -f edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/build.make edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.i
+.PHONY : src/VisualInputListener.cpp.i
+
+src/VisualInputListener.s: src/VisualInputListener.cpp.s
+
+.PHONY : src/VisualInputListener.s
+
+# target to generate assembly for a file
+src/VisualInputListener.cpp.s:
+	cd /home/marea/lessfucked_ws/build && $(MAKE) -f edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/build.make edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.s
+.PHONY : src/VisualInputListener.cpp.s
+
 src/old/adaptive_variable_impedance_controller.o: src/old/adaptive_variable_impedance_controller.cpp.o
 
 .PHONY : src/old/adaptive_variable_impedance_controller.o
@@ -1022,6 +1049,9 @@ help:
 	@echo "... src/TrajectoryCommunication.o"
 	@echo "... src/TrajectoryCommunication.i"
 	@echo "... src/TrajectoryCommunication.s"
+	@echo "... src/VisualInputListener.o"
+	@echo "... src/VisualInputListener.i"
+	@echo "... src/VisualInputListener.s"
 	@echo "... src/old/adaptive_variable_impedance_controller.o"
 	@echo "... src/old/adaptive_variable_impedance_controller.i"
 	@echo "... src/old/adaptive_variable_impedance_controller.s"

@@ -9,6 +9,7 @@ edu-elfin_simulation/trajectory_generators/CMakeFiles/JointSpace_StraightLine.di
  /home/marea/lessfucked_ws/devel/include/reactive_components/basic_first_interruptFeedback.h
  /home/marea/lessfucked_ws/devel/include/reactive_components/basic_first_interruptGoal.h
  /home/marea/lessfucked_ws/devel/include/reactive_components/basic_first_interruptResult.h
+ /home/marea/lessfucked_ws/devel/include/trajectory_generators/jointspace_trajectory.h
  /home/marea/lessfucked_ws/src/edu-elfin_simulation/trajectory_generators/src/JointSpace_StraightLine.cpp
  /opt/ros/noetic/include/actionlib/action_definition.h
  /opt/ros/noetic/include/actionlib/decl.h

@@ -7,4 +7,8 @@
 subdirs("gtest")
 subdirs("edu-elfin_simulation/reactive_components")
 subdirs("edu-elfin_simulation/trajectory_generators")
+subdirs("edu-elfin_simulation/elfin/elfin_description")
+subdirs("edu-elfin_simulation/elfin/elfin_gazebo")
 subdirs("edu-elfin_simulation/arm_controllers")
+subdirs("edu-elfin_simulation/eigen_kdl_examples")
+subdirs("edu-elfin_simulation/visual_input_trajectory")

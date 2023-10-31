@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/jointspace_trajectory.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /home/marea/lessfucked_ws/src/edu-elfin_simulation/trajectory_generators/src/resetPose.cpp
 ros/ros.h
 /home/marea/lessfucked_ws/src/edu-elfin_simulation/trajectory_generators/src/ros/ros.h

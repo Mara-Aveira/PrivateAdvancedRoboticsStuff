@@ -85,15 +85,15 @@ edu-elfin_simulation/trajectory_generators/CMakeFiles/trajectory_generators_gene
 
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Action.msg
-/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_ActionFeedback.msg
-/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
-/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_ActionResult.msg
-/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Result.msg
-/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_ActionGoal.msg
-/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Feedback.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Goal.msg
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Result.msg
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_ActionFeedback.msg
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_ActionGoal.msg
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_ActionResult.msg
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Feedback.msg
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_Action.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marea/lessfucked_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from trajectory_generators/robotTrajectory_Action.msg"
 	cd /home/marea/lessfucked_ws/src/edu-elfin_simulation/trajectory_generators && /home/marea/lessfucked_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Action.msg -Itrajectory_generators:/home/marea/lessfucked_ws/src/edu-elfin_simulation/trajectory_generators/msg -Itrajectory_generators:/home/marea/lessfucked_ws/devel/share/trajectory_generators/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p trajectory_generators -o /home/marea/lessfucked_ws/devel/include/trajectory_generators -e /opt/ros/noetic/share/gencpp/cmake/..
@@ -101,16 +101,16 @@ edu-elfin_simulation/trajectory_generators/CMakeFiles/trajectory_generators_gene
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionGoal.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionGoal.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_ActionGoal.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionGoal.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
-/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionGoal.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Goal.msg
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionGoal.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionGoal.h: /opt/ros/noetic/share/gencpp/msg.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marea/lessfucked_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from trajectory_generators/robotTrajectory_ActionGoal.msg"
 	cd /home/marea/lessfucked_ws/src/edu-elfin_simulation/trajectory_generators && /home/marea/lessfucked_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_ActionGoal.msg -Itrajectory_generators:/home/marea/lessfucked_ws/src/edu-elfin_simulation/trajectory_generators/msg -Itrajectory_generators:/home/marea/lessfucked_ws/devel/share/trajectory_generators/msg -Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p trajectory_generators -o /home/marea/lessfucked_ws/devel/include/trajectory_generators -e /opt/ros/noetic/share/gencpp/cmake/..
 
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionResult.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionResult.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_ActionResult.msg
-/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionResult.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Result.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionResult.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Result.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionResult.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionResult.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionResult.h: /opt/ros/noetic/share/gencpp/msg.h.template
@@ -119,8 +119,8 @@ edu-elfin_simulation/trajectory_generators/CMakeFiles/trajectory_generators_gene
 
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionFeedback.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionFeedback.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_ActionFeedback.msg
-/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionFeedback.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Feedback.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalID.msg
+/home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionFeedback.h: /home/marea/lessfucked_ws/devel/share/trajectory_generators/msg/robotTrajectory_Feedback.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionFeedback.h: /opt/ros/noetic/share/actionlib_msgs/msg/GoalStatus.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionFeedback.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
 /home/marea/lessfucked_ws/devel/include/trajectory_generators/robotTrajectory_ActionFeedback.h: /opt/ros/noetic/share/gencpp/msg.h.template

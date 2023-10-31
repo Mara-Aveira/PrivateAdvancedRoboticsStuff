@@ -1,0 +1,8 @@
+prefix=/home/marea/lessfucked_ws/install
+
+Name: visual_input_trajectory
+Description: Description of visual_input_trajectory
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs

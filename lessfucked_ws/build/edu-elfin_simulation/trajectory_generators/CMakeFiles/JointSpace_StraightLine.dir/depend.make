@@ -8,6 +8,7 @@ edu-elfin_simulation/trajectory_generators/CMakeFiles/JointSpace_StraightLine.di
 edu-elfin_simulation/trajectory_generators/CMakeFiles/JointSpace_StraightLine.dir/src/JointSpace_StraightLine.cpp.o: /home/marea/lessfucked_ws/devel/include/reactive_components/basic_first_interruptFeedback.h
 edu-elfin_simulation/trajectory_generators/CMakeFiles/JointSpace_StraightLine.dir/src/JointSpace_StraightLine.cpp.o: /home/marea/lessfucked_ws/devel/include/reactive_components/basic_first_interruptGoal.h
 edu-elfin_simulation/trajectory_generators/CMakeFiles/JointSpace_StraightLine.dir/src/JointSpace_StraightLine.cpp.o: /home/marea/lessfucked_ws/devel/include/reactive_components/basic_first_interruptResult.h
+edu-elfin_simulation/trajectory_generators/CMakeFiles/JointSpace_StraightLine.dir/src/JointSpace_StraightLine.cpp.o: /home/marea/lessfucked_ws/devel/include/trajectory_generators/jointspace_trajectory.h
 edu-elfin_simulation/trajectory_generators/CMakeFiles/JointSpace_StraightLine.dir/src/JointSpace_StraightLine.cpp.o: /home/marea/lessfucked_ws/src/edu-elfin_simulation/trajectory_generators/src/JointSpace_StraightLine.cpp
 edu-elfin_simulation/trajectory_generators/CMakeFiles/JointSpace_StraightLine.dir/src/JointSpace_StraightLine.cpp.o: /opt/ros/noetic/include/actionlib/action_definition.h
 edu-elfin_simulation/trajectory_generators/CMakeFiles/JointSpace_StraightLine.dir/src/JointSpace_StraightLine.cpp.o: /opt/ros/noetic/include/actionlib/decl.h

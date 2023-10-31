@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/arm_controllers.dir/src/LinearTaskSpace_control.cpp.o"
   "CMakeFiles/arm_controllers.dir/src/Slave_Trajectory_ExecContr.cpp.o"
   "CMakeFiles/arm_controllers.dir/src/TrajectoryCommunication.cpp.o"
+  "CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.o"
   "CMakeFiles/arm_controllers.dir/src/old/adaptive_variable_impedance_controller.cpp.o"
   "CMakeFiles/arm_controllers.dir/src/old/computed_torque_clik_controller.cpp.o"
   "CMakeFiles/arm_controllers.dir/src/old/computed_torque_controller.cpp.o"

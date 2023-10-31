@@ -187,6 +187,19 @@ edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/Slave_Tr
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arm_controllers.dir/src/Slave_Trajectory_ExecContr.cpp.s"
 	cd /home/marea/lessfucked_ws/build/edu-elfin_simulation/arm_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marea/lessfucked_ws/src/edu-elfin_simulation/arm_controllers/src/Slave_Trajectory_ExecContr.cpp -o CMakeFiles/arm_controllers.dir/src/Slave_Trajectory_ExecContr.cpp.s
 
+edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.o: edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/flags.make
+edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.o: /home/marea/lessfucked_ws/src/edu-elfin_simulation/arm_controllers/src/VisualInputListener.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marea/lessfucked_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.o"
+	cd /home/marea/lessfucked_ws/build/edu-elfin_simulation/arm_controllers && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.o -c /home/marea/lessfucked_ws/src/edu-elfin_simulation/arm_controllers/src/VisualInputListener.cpp
+
+edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.i"
+	cd /home/marea/lessfucked_ws/build/edu-elfin_simulation/arm_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marea/lessfucked_ws/src/edu-elfin_simulation/arm_controllers/src/VisualInputListener.cpp > CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.i
+
+edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.s"
+	cd /home/marea/lessfucked_ws/build/edu-elfin_simulation/arm_controllers && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marea/lessfucked_ws/src/edu-elfin_simulation/arm_controllers/src/VisualInputListener.cpp -o CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.s
+
 # Object files for target arm_controllers
 arm_controllers_OBJECTS = \
 "CMakeFiles/arm_controllers.dir/src/old/time_delay_controller.cpp.o" \
@@ -198,7 +211,8 @@ arm_controllers_OBJECTS = \
 "CMakeFiles/arm_controllers.dir/src/TrajectoryCommunication.cpp.o" \
 "CMakeFiles/arm_controllers.dir/src/GravityComp_PDcontroller.cpp.o" \
 "CMakeFiles/arm_controllers.dir/src/LinearTaskSpace_control.cpp.o" \
-"CMakeFiles/arm_controllers.dir/src/Slave_Trajectory_ExecContr.cpp.o"
+"CMakeFiles/arm_controllers.dir/src/Slave_Trajectory_ExecContr.cpp.o" \
+"CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.o"
 
 # External object files for target arm_controllers
 arm_controllers_EXTERNAL_OBJECTS =
@@ -213,6 +227,7 @@ arm_controllers_EXTERNAL_OBJECTS =
 /home/marea/lessfucked_ws/devel/lib/libarm_controllers.so: edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/GravityComp_PDcontroller.cpp.o
 /home/marea/lessfucked_ws/devel/lib/libarm_controllers.so: edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/LinearTaskSpace_control.cpp.o
 /home/marea/lessfucked_ws/devel/lib/libarm_controllers.so: edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/Slave_Trajectory_ExecContr.cpp.o
+/home/marea/lessfucked_ws/devel/lib/libarm_controllers.so: edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/src/VisualInputListener.cpp.o
 /home/marea/lessfucked_ws/devel/lib/libarm_controllers.so: edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/build.make
 /home/marea/lessfucked_ws/devel/lib/libarm_controllers.so: /opt/ros/noetic/lib/libkdl_parser.so
 /home/marea/lessfucked_ws/devel/lib/libarm_controllers.so: /usr/lib/liborocos-kdl.so
@@ -252,7 +267,7 @@ arm_controllers_EXTERNAL_OBJECTS =
 /home/marea/lessfucked_ws/devel/lib/libarm_controllers.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 /home/marea/lessfucked_ws/devel/lib/libarm_controllers.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /home/marea/lessfucked_ws/devel/lib/libarm_controllers.so: edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marea/lessfucked_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library /home/marea/lessfucked_ws/devel/lib/libarm_controllers.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marea/lessfucked_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library /home/marea/lessfucked_ws/devel/lib/libarm_controllers.so"
 	cd /home/marea/lessfucked_ws/build/edu-elfin_simulation/arm_controllers && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arm_controllers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

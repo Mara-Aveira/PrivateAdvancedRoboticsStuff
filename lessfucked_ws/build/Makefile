@@ -1740,6 +1740,110 @@ arm_controllers_generate_messages_lisp/fast:
 	$(MAKE) -f edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers_generate_messages_lisp.dir/build.make edu-elfin_simulation/arm_controllers/CMakeFiles/arm_controllers_generate_messages_lisp.dir/build
 .PHONY : arm_controllers_generate_messages_lisp/fast
 
+#=============================================================================
+# Target rules for targets named eigen
+
+# Build rule for target.
+eigen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eigen
+.PHONY : eigen
+
+# fast build rule for target.
+eigen/fast:
+	$(MAKE) -f edu-elfin_simulation/eigen_kdl_examples/CMakeFiles/eigen.dir/build.make edu-elfin_simulation/eigen_kdl_examples/CMakeFiles/eigen.dir/build
+.PHONY : eigen/fast
+
+#=============================================================================
+# Target rules for targets named kdl
+
+# Build rule for target.
+kdl: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kdl
+.PHONY : kdl
+
+# fast build rule for target.
+kdl/fast:
+	$(MAKE) -f edu-elfin_simulation/eigen_kdl_examples/CMakeFiles/kdl.dir/build.make edu-elfin_simulation/eigen_kdl_examples/CMakeFiles/kdl.dir/build
+.PHONY : kdl/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_py
+
+# Build rule for target.
+sensor_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_py
+.PHONY : sensor_msgs_generate_messages_py
+
+# fast build rule for target.
+sensor_msgs_generate_messages_py/fast:
+	$(MAKE) -f edu-elfin_simulation/visual_input_trajectory/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make edu-elfin_simulation/visual_input_trajectory/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
+.PHONY : sensor_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_nodejs
+
+# Build rule for target.
+sensor_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_nodejs
+.PHONY : sensor_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+sensor_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f edu-elfin_simulation/visual_input_trajectory/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build.make edu-elfin_simulation/visual_input_trajectory/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
+.PHONY : sensor_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named object_detection
+
+# Build rule for target.
+object_detection: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 object_detection
+.PHONY : object_detection
+
+# fast build rule for target.
+object_detection/fast:
+	$(MAKE) -f edu-elfin_simulation/visual_input_trajectory/CMakeFiles/object_detection.dir/build.make edu-elfin_simulation/visual_input_trajectory/CMakeFiles/object_detection.dir/build
+.PHONY : object_detection/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_lisp
+
+# Build rule for target.
+sensor_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_lisp
+.PHONY : sensor_msgs_generate_messages_lisp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f edu-elfin_simulation/visual_input_trajectory/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build.make edu-elfin_simulation/visual_input_trajectory/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/build
+.PHONY : sensor_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_eus
+
+# Build rule for target.
+sensor_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_eus
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	$(MAKE) -f edu-elfin_simulation/visual_input_trajectory/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make edu-elfin_simulation/visual_input_trajectory/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named sensor_msgs_generate_messages_cpp
+
+# Build rule for target.
+sensor_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sensor_msgs_generate_messages_cpp
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f edu-elfin_simulation/visual_input_trajectory/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make edu-elfin_simulation/visual_input_trajectory/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1874,6 +1978,14 @@ help:
 	@echo "... arm_controllers_generate_messages"
 	@echo "... arm_controllers_geneus"
 	@echo "... arm_controllers_generate_messages_lisp"
+	@echo "... eigen"
+	@echo "... kdl"
+	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... sensor_msgs_generate_messages_nodejs"
+	@echo "... object_detection"
+	@echo "... sensor_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... sensor_msgs_generate_messages_cpp"
 .PHONY : help
 
 

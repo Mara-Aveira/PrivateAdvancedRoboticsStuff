@@ -1,2 +1,2 @@
-edu-elfin_simulation/arm_controllers:edu-elfin_simulation/eigen_kdl_examples:edu-elfin_simulation/elfin/elfin_description:edu-elfin_simulation/elfin/elfin_gazebo:edu-elfin_simulation/reactive_components:edu-elfin_simulation/trajectory_generators
+edu-elfin_simulation/arm_controllers:edu-elfin_simulation/eigen_kdl_examples:edu-elfin_simulation/elfin/elfin_description:edu-elfin_simulation/elfin/elfin_gazebo:edu-elfin_simulation/reactive_components:edu-elfin_simulation/trajectory_generators:edu-elfin_simulation/visual_input_trajectory
 -DCATKIN_DEVEL_PREFIX=/home/marea/lessfucked_ws/devel -DCMAKE_INSTALL_PREFIX=/home/marea/lessfucked_ws/install -G Unix Makefiles
